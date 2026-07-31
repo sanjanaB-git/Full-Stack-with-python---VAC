@@ -1,0 +1,129 @@
+/* ---------- Page Background ---------- */
+
+body{
+    background-color: #F8F6FC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ---------- Navigation Bar ---------- */
+
+.navbar{
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #DDD6E8;
+}
+
+
+/* ---------- Cards ---------- */
+
+.card{
+    background-color: #FFFFFF;
+    border: 1px solid #E2DDF0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.08);
+}
+
+
+/* ---------- Headings ---------- */
+
+h2,h3{
+    color: #4B3F72;
+    text-align: center;
+}
+
+
+/* ---------- Primary Buttons (Create Ticket & Submit) ---------- */
+
+.btn-primary{
+    background-color: #E9D5FF !important;
+    border: 1px solid #D8B4FE !important;
+    color: #4B3F72 !important;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #D8B4FE !important;
+    border: 1px solid #C084FC !important;
+    color: #4B3F72 !important;
+}
+
+
+/* ---------- Secondary Buttons ---------- */
+
+.btn-secondary{
+    background-color: #D9D9D9 !important;
+    border: 1px solid #C5C5C5 !important;
+    color: #333333 !important;
+}
+
+.btn-secondary:hover{
+    background-color: #C8C8C8 !important;
+}
+
+
+/* ---------- Outline Buttons ---------- */
+
+.btn-outline-secondary{
+    color: #555555 !important;
+    border-color: #BDBDBD !important;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #EEEEEE !important;
+    color: #333333 !important;
+}
+
+
+/* ---------- Form Controls ---------- */
+
+.form-control,
+.form-select,
+textarea{
+    border: 1px solid #D6D6D6;
+    margin-top: 5px;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus{
+    border-color: #C8B6FF;
+    box-shadow: 0 0 5px rgba(200,182,255,0.3);
+}
+
+
+/* ---------- Tables ---------- */
+
+.table{
+    background-color: #FFFFFF;
+}
+
+.table th{
+    background-color: #EFE8FA;
+    color: #4B3F72;
+}
+
+
+/* ---------- Labels ---------- */
+
+label{
+    font-weight: bold;
+    color: #555555;
+}
+
+
+/* ---------- Links ---------- */
+
+a{
+    text-decoration: none;
+}
+
+
+/* ---------- Footer (Optional) ---------- */
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: #777777;
+}
